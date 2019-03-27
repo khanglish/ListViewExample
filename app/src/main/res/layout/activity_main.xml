@@ -4,23 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical">
     <TextView
         android:id="@+id/txtMsg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff00"
+        android:background="#ffffffff"
+        android:textColor="#0B0B0B"
         android:text="@string/txtMsg_text"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        android:focusable="false"/>
 
     <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
+        android:id="@+id/my_list"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"/>
-    <TextView
-        android:id="@+id/empty"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffff0000"
-        android:text="@string/empty_text"/>
 </LinearLayout>
