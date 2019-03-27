@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">List View Example</string>
+    <string name="txtMsg_text">Using listview...</string>
+    <string name="empty_text">Empty list...</string>
+</resources>
